@@ -7,7 +7,7 @@ services:
       APP_HOST: hello_world_server_1
       APP_PORT: 3000
     
-    server:
-      image: mayankchhabra/sdx:latest
-      user: "1000:1000"
-      init: true
+  server:
+    image: mayankchhabra/sdx:latest
+    user: "1000:1000"
+    init: true
