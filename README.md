@@ -16,6 +16,8 @@ To test your community app store, you can add this repository through the Umbrel
 To add an app store:
 ```
 sudo ~/umbrel/scripts/repo add https://github.com/getumbrel/umbrel-community-app-store.git
+
+sudo ~/umbrel/scripts/repo update
 ```
 
 To install an app from the app store
