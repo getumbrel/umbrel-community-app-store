@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: pixelfed
+name: Pixelfed
+tagline: Replace this tagline with your app's tagline
+icon: https://th.bing.com/th/id/OIP.CPld823lFFbEfi9usYEG5gAAAA?w=147&h=180&c=7&r=0&o=5&pid=1.7
+category: Development
+version: "0.11.8"
+port: 4000
+description: >-
+  Add your app's description here.
+Pixelfed is a free and open-source image sharing social network service. It is decentralized, therefore user data is not stored on a central server, unlike other platforms.[5][6] Pixelfed uses the ActivityPub protocol which allows users to interact with other social networks within the protocol, such as Mastodon, PeerTube, and Friendica.[7] Using this protocol makes Pixelfed a part of the Fediverse. The network is made up of several independent sites that communicate with one another, which is roughly comparable to e-mail providers. The parties involved do not all have to be registered with the same provider, but can still communicate with each other. Thus, users are able to sign up on any server and follow others on the other instances.[8][9]
+
+Much like Mastodon, Pixelfed implements chronological timelines without content manipulation algorithms. It also aims to be privacy-focused with no third party analytics or tracking.[11] Pixelfed optionally organizes its media by hashtags, geo-tagging and likes based on each server. It also allows audiences to be distinguished in three ways and on a post-by-post basis: followers-only, public, and unlisted. Like several other social platforms, Pixelfed allows accounts to be locked, when followers must be pre-approved by the owner.
+
+The server maintained by the main developer of Pixelfed requires users to be over 16 years old. Restrictions are different on different instances.
+
+  You can also add newlines!
+There is pixelfed live
+developer: Pixelfed
+website: https://pixelfed.org
+submitter: Pixelfed
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/getumbrel/umbrel-hello-world-app
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+gallery:
+  - https://www.arimetrics.com/wp-content/uploads/2020/01/pixelfed_que_es.png
+  - https://www.arimetrics.com/wp-content/uploads/2020/01/pixelfed_que_es.png
+  - https://www.arimetrics.com/wp-content/uploads/2020/01/pixelfed_que_es.png
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+  Pixelfed Live Built In
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
