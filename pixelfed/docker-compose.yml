@@ -1,0 +1,35 @@
+version: '3'
+services:
+  pixelfed:
+    image: pixelfed/pixelfed:latest
+    restart: unless-stopped
+    environment:
+      - APP_ENV=production
+      - APP_DEBUG=false
+      - APP_KEY=your-secret-key
+      # Add other necessary environment variables here
+    ports:
+      - "4000:4000"
+    volumes:
+      - pixelfed_data:/var/www/html/storage
+    networks:
+      - pixelfed_network
+
+  pixelfed_live:
+    image: pixelfed/pixelfed-live:latest
+    restart: unless-stopped
+    environment:
+      - PIXELFED_URL=http://localhost:4000
+      - PIXELFED_SECRET=your-pixelfed-secret
+      # Add other necessary environment variables here
+    ports:
+      - "1935:1935"
+    networks:
+      - pixelfed_network
+
+networks:
+  pixelfed_network:
+    driver: bridge
+
+volumes:
+  pixelfed_data:
